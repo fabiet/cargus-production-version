@@ -284,12 +284,6 @@ function App() {
                   <p className="text-slate-400 leading-relaxed flex-grow group-hover:text-slate-300 transition-colors duration-300">
                     {t.industrialDescription}
                   </p>
-                  <div className="mt-6 pt-4 border-t border-slate-700/50">
-                    <div className="flex items-center text-blue-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300">
-                      <span>Learn More</span>
-                      <ArrowRight size={16} className="ml-2" />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -308,12 +302,6 @@ function App() {
                   <p className="text-slate-400 leading-relaxed flex-grow group-hover:text-slate-300 transition-colors duration-300">
                     {t.expressDescription}
                   </p>
-                  <div className="mt-6 pt-4 border-t border-slate-700/50">
-                    <div className="flex items-center text-orange-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300">
-                      <span>Learn More</span>
-                      <ArrowRight size={16} className="ml-2" />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -332,12 +320,6 @@ function App() {
                   <p className="text-slate-400 leading-relaxed flex-grow group-hover:text-slate-300 transition-colors duration-300">
                     {t.secureDescription}
                   </p>
-                  <div className="mt-6 pt-4 border-t border-slate-700/50">
-                    <div className="flex items-center text-green-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300">
-                      <span>Learn More</span>
-                      <ArrowRight size={16} className="ml-2" />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -356,12 +338,6 @@ function App() {
                   <p className="text-slate-400 leading-relaxed flex-grow group-hover:text-slate-300 transition-colors duration-300">
                     {t.cargoStorageDescription}
                   </p>
-                  <div className="mt-6 pt-4 border-t border-slate-700/50">
-                    <div className="flex items-center text-purple-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300">
-                      <span>Learn More</span>
-                      <ArrowRight size={16} className="ml-2" />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -380,12 +356,6 @@ function App() {
                   <p className="text-slate-400 leading-relaxed flex-grow group-hover:text-slate-300 transition-colors duration-300">
                     {t.groundTransportDescription}
                   </p>
-                  <div className="mt-6 pt-4 border-t border-slate-700/50">
-                    <div className="flex items-center text-yellow-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300">
-                      <span>Learn More</span>
-                      <ArrowRight size={16} className="ml-2" />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -404,12 +374,6 @@ function App() {
                   <p className="text-slate-400 leading-relaxed flex-grow group-hover:text-slate-300 transition-colors duration-300">
                     Comprehensive end-to-end logistics solutions connecting every corner of the globe with seamless coordination and expert handling.
                   </p>
-                  <div className="mt-6 pt-4 border-t border-slate-700/50">
-                    <div className="flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300">
-                      <span>Learn More</span>
-                      <ArrowRight size={16} className="ml-2" />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
