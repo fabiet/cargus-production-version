@@ -412,7 +412,7 @@ function App() {
               </div>
             </div>
 
-            {/* Global Solutions - New 6th Service */}
+            {/* Global Solutions - Now using translations */}
             <div className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-teal-500/10 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-500 opacity-0 group-hover:opacity-100"></div>
               <div className="relative bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 border border-slate-700/50 hover:border-cyan-500/30 transition-all duration-500 hover:-translate-y-2 h-full">
@@ -421,10 +421,10 @@ function App() {
                     <Globe size={28} className="text-cyan-400" />
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-cyan-300 transition-colors duration-300">
-                    Global Solutions
+                    {t.globalSolutions}
                   </h3>
                   <p className="text-slate-400 leading-relaxed flex-grow group-hover:text-slate-300 transition-colors duration-300">
-                    Comprehensive end-to-end logistics solutions connecting every corner of the globe with seamless coordination and expert handling.
+                    {t.globalSolutionsDescription}
                   </p>
                 </div>
               </div>

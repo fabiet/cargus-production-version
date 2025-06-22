@@ -32,6 +32,8 @@ export const translations = {
     cargoStorageDescription: "Safe, flexible storage solutions for your cargo between shipments. Modern, secure warehouses in key locations.",
     groundTransport: "Ground Transportation",
     groundTransportDescription: "Reliable ground transportation for last-mile delivery and intermodal logistics. Fast, safe, and efficient.",
+    globalSolutions: "Global Solutions",
+    globalSolutionsDescription: "Comprehensive end-to-end logistics solutions connecting every corner of the globe with seamless coordination and expert handling.",
     
     // Stats
     shipmentsDelivered: "Shipments Delivered",
@@ -184,6 +186,8 @@ export const translations = {
     cargoStorageDescription: "Soluciones de almacenamiento seguras y flexibles para su carga entre envíos. Almacenes modernos y seguros en ubicaciones clave.",
     groundTransport: "Transporte Terrestre",
     groundTransportDescription: "Transporte terrestre confiable para entregas de última milla y logística intermodal. Rápido, seguro y eficiente.",
+    globalSolutions: "Soluciones Globales",
+    globalSolutionsDescription: "Soluciones logísticas integrales de extremo a extremo que conectan cada rincón del mundo con coordinación perfecta y manejo experto.",
     
     // Stats
     shipmentsDelivered: "Envíos Entregados",
