@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Truck, Package2, ArrowRight, Globe, CheckCircle, Menu, X, Languages, Instagram, Warehouse, Bus } from 'lucide-react';
+import { Truck, Package2, ArrowRight, Globe, CheckCircle, Menu, X, Languages, Instagram, Warehouse, Bus, Search } from 'lucide-react';
 import About from './components/About';
 import Contact from './components/Contact';
 import GetQuote from './components/GetQuote';
@@ -269,13 +269,26 @@ function App() {
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-300" />
               </button>
               
-              <button 
-                className="group text-slate-400 font-medium py-4 px-8 rounded-xl border border-slate-700 bg-slate-700/40 cursor-not-allowed opacity-60 flex items-center space-x-2 text-lg select-none pointer-events-none"
-                aria-disabled="true"
-              >
-                <img src={logo2} alt="Cargus Logo" className="w-5 h-5" />
-                <span>Coming Soon</span>
-              </button>
+              <div className="relative group">
+                <button 
+                  className="text-slate-400 font-medium py-4 px-8 rounded-xl border border-slate-700 bg-slate-700/40 cursor-not-allowed opacity-60 flex items-center space-x-2 text-lg select-none pointer-events-none"
+                  aria-disabled="true"
+                >
+                  <Search size={20} className="text-slate-500" />
+                  <span>{t.trackCargo}</span>
+                </button>
+                
+                {/* Coming Soon Badge */}
+                <div className="absolute -top-2 -right-2 bg-gradient-to-r from-orange-500 to-red-500 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg">
+                  {t.comingSoon}
+                </div>
+                
+                {/* Tooltip on hover */}
+                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-slate-800 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap border border-slate-700 shadow-xl">
+                  {t.trackingFeatureComingSoon}
+                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-slate-800"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

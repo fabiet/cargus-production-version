@@ -15,7 +15,9 @@ export const translations = {
     globalCargo: "in Global Cargo Logistics",
     heroDescription: "We specialize in fast, secure containerized and air freight solutions from the U.S. and beyond to Latin America. Whether you're shipping from Miami, China, or anywhere in the world—we deliver your cargo reliably, safely, and on time.",
     getQuoteBtn: "Get a Quote",
-    trackShipment: "Track Shipment",
+    trackCargo: "Track Cargo",
+    comingSoon: "Coming Soon",
+    trackingFeatureComingSoon: "Cargo tracking feature will be available soon",
     
     // Services Section
     ourServices: "Our Services",
@@ -165,7 +167,9 @@ export const translations = {
     globalCargo: "en Logística de Carga Global",
     heroDescription: "Nos especializamos en soluciones de carga marítima y aérea rápidas y seguras desde EE.UU. y más allá hacia América Latina. Ya sea que envíe desde Miami, China o cualquier parte del mundo, entregamos su carga de manera confiable, segura y a tiempo.",
     getQuoteBtn: "Obtener Cotización",
-    trackShipment: "Rastrear Envío",
+    trackCargo: "Rastrear Carga",
+    comingSoon: "Próximamente",
+    trackingFeatureComingSoon: "La función de rastreo de carga estará disponible pronto",
     
     // Services Section
     ourServices: "Nuestros Servicios",
