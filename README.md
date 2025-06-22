@@ -1,89 +1,90 @@
-# Cargus Logistics Website
+# Cargus Logistics - Global Cargo Solutions
 
-A modern, responsive logistics company website built with React, TypeScript, and Tailwind CSS.
+A modern, responsive website for Cargus Logistics, offering global cargo and shipping solutions.
 
-## Features
+## 🌟 Features
 
-- 🌐 Multi-language support
-- 📱 Fully responsive design
-- 🎨 Modern UI with Tailwind CSS
-- 📝 Quote request form
-- 🔒 Secure form submission with Supabase
-- 🚢 Logistics service showcase
+- **Multi-language Support**: English and Spanish
+- **Responsive Design**: Works perfectly on all devices
+- **Modern UI**: Built with React, TypeScript, and Tailwind CSS
+- **Contact Forms**: Integrated with Supabase for message handling
+- **Quote Requests**: Professional quote request system
+- **Interactive Navigation**: Smooth page transitions and mobile menu
 
-## Tech Stack
+## 🚀 Live Website
 
-- React
-- TypeScript
-- Tailwind CSS
-- Vite
-- Supabase
+Visit the live website: [Cargus Logistics](https://fabioaraujo.github.io/cargus-production-version/)
 
-## Getting Started
+## 🛠️ Technology Stack
 
-### Prerequisites
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Icons**: Lucide React
+- **Backend**: Supabase
+- **Deployment**: GitHub Pages
 
-- Node.js (v14 or higher)
-- npm or yarn
+## 📦 Installation
 
-### Installation
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cargus-logistics.git
-cd cargus-logistics
-```
+# Clone the repository
+git clone https://github.com/fabioaraujo/cargus-production-version.git
 
-2. Install dependencies:
-```bash
+# Navigate to the project directory
+cd cargus-production-version
+
+# Install dependencies
 npm install
-# or
-yarn install
+
+# Start development server
+npm run dev
 ```
 
-3. Create a `.env` file in the root directory and add your Supabase credentials:
-```
+## 🔧 Environment Variables
+
+Create a `.env` file in the root directory with your Supabase credentials:
+
+```env
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
-4. Start the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 📝 Available Scripts
 
-The application will be available at `http://localhost:5173`
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-## Building for Production
+## 🌐 Deployment
 
-```bash
-npm run build
-# or
-yarn build
-```
+This project is automatically deployed to GitHub Pages using GitHub Actions. Every push to the main branch triggers a new deployment.
 
-## Deployment
+### Manual Deployment
 
-This project can be easily deployed to:
-- GitHub Pages
-- Vercel
-- Netlify
+1. Build the project: `npm run build`
+2. The built files are in the `dist/` directory
+3. Deploy the contents of `dist/` to your web server
 
-## Contributing
+## 📱 Pages
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- **Home**: Main landing page with services overview
+- **About**: Company information and mission
+- **Contact**: Contact form and location information
+- **Get Quote**: Professional quote request form
 
-## License
+## 🎨 Design Features
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+- Modern gradient backgrounds
+- Smooth animations and transitions
+- Professional color scheme
+- Mobile-first responsive design
+- Accessible navigation
 
-## Contact
+## 📄 License
 
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/cargus-logistics 
+This project is private and proprietary to Cargus Logistics.
+
+## 🤝 Support
+
+For support or questions, please contact Cargus Logistics through the website contact form. 
