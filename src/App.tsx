@@ -220,6 +220,45 @@ function App() {
               {t.heroDescription}
             </p>
 
+            {/* Key Metrics - Integrated into Hero */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 max-w-4xl mx-auto">
+              <div className="group bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/30 transition-all duration-300 hover:-translate-y-1">
+                <div className="text-3xl md:text-4xl font-bold text-blue-400 mb-2 group-hover:scale-110 transition-transform duration-300">
+                  10K+
+                </div>
+                <div className="text-sm text-slate-400 font-medium">
+                  {t.shipmentsDelivered}
+                </div>
+              </div>
+              
+              <div className="group bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1">
+                <div className="text-3xl md:text-4xl font-bold text-orange-400 mb-2 group-hover:scale-110 transition-transform duration-300">
+                  25+
+                </div>
+                <div className="text-sm text-slate-400 font-medium">
+                  {t.countriesServed}
+                </div>
+              </div>
+              
+              <div className="group bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-green-500/30 transition-all duration-300 hover:-translate-y-1">
+                <div className="text-3xl md:text-4xl font-bold text-green-400 mb-2 group-hover:scale-110 transition-transform duration-300">
+                  99.8%
+                </div>
+                <div className="text-sm text-slate-400 font-medium">
+                  {t.onTimeDelivery}
+                </div>
+              </div>
+              
+              <div className="group bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-purple-500/30 transition-all duration-300 hover:-translate-y-1">
+                <div className="text-3xl md:text-4xl font-bold text-purple-400 mb-2 group-hover:scale-110 transition-transform duration-300">
+                  15+
+                </div>
+                <div className="text-sm text-slate-400 font-medium">
+                  {t.yearsExperience}
+                </div>
+              </div>
+            </div>
+
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
               <button 
@@ -393,7 +432,7 @@ function App() {
         </div>
       </section>
 
-      {/* Stats Section with Wave Divider */}
+      {/* Stats Section with Wave Divider - Removed since metrics are now in hero */}
       <div className="relative">
         <svg className="w-full h-24 fill-slate-800 rotate-180" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25"></path>
@@ -401,29 +440,6 @@ function App() {
           <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"></path>
         </svg>
       </div>
-
-      <section className="relative bg-slate-800 py-24 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div className="group">
-              <div className="text-4xl font-bold text-blue-400 mb-2 group-hover:scale-110 transition-transform">10K+</div>
-              <div className="text-slate-400">{t.shipmentsDelivered}</div>
-            </div>
-            <div className="group">
-              <div className="text-4xl font-bold text-orange-400 mb-2 group-hover:scale-110 transition-transform">25+</div>
-              <div className="text-slate-400">{t.countriesServed}</div>
-            </div>
-            <div className="group">
-              <div className="text-4xl font-bold text-green-400 mb-2 group-hover:scale-110 transition-transform">99.8%</div>
-              <div className="text-slate-400">{t.onTimeDelivery}</div>
-            </div>
-            <div className="group">
-              <div className="text-4xl font-bold text-purple-400 mb-2 group-hover:scale-110 transition-transform">15+</div>
-              <div className="text-slate-400">{t.yearsExperience}</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="relative bg-slate-950 py-20 px-6 border-t border-slate-800">
