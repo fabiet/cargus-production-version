@@ -261,55 +261,55 @@ function App() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
-              <div className="bg-blue-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500/20 transition-colors">
-                <Package2 size={32} className="text-blue-400" />
+          <div className="flex flex-col items-center w-full">
+            <div className="flex flex-col md:flex-row md:justify-center md:space-x-8 w-full mb-8">
+              <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2 mb-8 md:mb-0 w-full md:w-1/3 max-w-xs mx-auto">
+                <div className="bg-blue-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500/20 transition-colors">
+                  <Package2 size={32} className="text-blue-400" />
+                </div>
+                <h3 className="text-2xl font-semibold mb-4">{t.industrialCargo}</h3>
+                <p className="text-slate-400 leading-relaxed">
+                  {t.industrialDescription}
+                </p>
               </div>
-              <h3 className="text-2xl font-semibold mb-4">{t.industrialCargo}</h3>
-              <p className="text-slate-400 leading-relaxed">
-                {t.industrialDescription}
-              </p>
+              <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2 mb-8 md:mb-0 w-full md:w-1/3 max-w-xs mx-auto">
+                <div className="bg-orange-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-500/20 transition-colors">
+                  <Truck size={32} className="text-orange-400" />
+                </div>
+                <h3 className="text-2xl font-semibold mb-4">{t.expressDelivery}</h3>
+                <p className="text-slate-400 leading-relaxed">
+                  {t.expressDescription}
+                </p>
+              </div>
+              <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2 w-full md:w-1/3 max-w-xs mx-auto">
+                <div className="bg-green-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition-colors">
+                  <img src={logo2} alt="Cargus Logo" className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-semibold mb-4">{t.secureTransport}</h3>
+                <p className="text-slate-400 leading-relaxed">
+                  {t.secureDescription}
+                </p>
+              </div>
             </div>
-
-            <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
-              <div className="bg-orange-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-500/20 transition-colors">
-                <Truck size={32} className="text-orange-400" />
+            <div className="flex flex-col md:flex-row md:justify-center md:space-x-8 w-full">
+              <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2 mb-8 md:mb-0 w-full md:w-1/3 max-w-xs mx-auto">
+                <div className="bg-purple-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-500/20 transition-colors">
+                  <Warehouse size={32} className="text-purple-400" />
+                </div>
+                <h3 className="text-2xl font-semibold mb-4">{t.cargoStorage}</h3>
+                <p className="text-slate-400 leading-relaxed">
+                  {t.cargoStorageDescription}
+                </p>
               </div>
-              <h3 className="text-2xl font-semibold mb-4">{t.expressDelivery}</h3>
-              <p className="text-slate-400 leading-relaxed">
-                {t.expressDescription}
-              </p>
-            </div>
-
-            <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
-              <div className="bg-green-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition-colors">
-                <img src={logo2} alt="Cargus Logo" className="w-8 h-8" />
+              <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2 w-full md:w-1/3 max-w-xs mx-auto">
+                <div className="bg-yellow-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-yellow-500/20 transition-colors">
+                  <Bus size={32} className="text-yellow-400" />
+                </div>
+                <h3 className="text-2xl font-semibold mb-4">{t.groundTransport}</h3>
+                <p className="text-slate-400 leading-relaxed">
+                  {t.groundTransportDescription}
+                </p>
               </div>
-              <h3 className="text-2xl font-semibold mb-4">{t.secureTransport}</h3>
-              <p className="text-slate-400 leading-relaxed">
-                {t.secureDescription}
-              </p>
-            </div>
-
-            <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
-              <div className="bg-purple-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-500/20 transition-colors">
-                <Warehouse size={32} className="text-purple-400" />
-              </div>
-              <h3 className="text-2xl font-semibold mb-4">{t.cargoStorage}</h3>
-              <p className="text-slate-400 leading-relaxed">
-                {t.cargoStorageDescription}
-              </p>
-            </div>
-
-            <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
-              <div className="bg-yellow-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-yellow-500/20 transition-colors">
-                <Bus size={32} className="text-yellow-400" />
-              </div>
-              <h3 className="text-2xl font-semibold mb-4">{t.groundTransport}</h3>
-              <p className="text-slate-400 leading-relaxed">
-                {t.groundTransportDescription}
-              </p>
             </div>
           </div>
         </div>
