@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Truck, Package2, ArrowRight, Globe, CheckCircle, Menu, X, Languages, Instagram } from 'lucide-react';
+import { Truck, Package2, ArrowRight, Globe, CheckCircle, Menu, X, Languages, Instagram, Warehouse, Bus } from 'lucide-react';
 import About from './components/About';
 import Contact from './components/Contact';
 import GetQuote from './components/GetQuote';
@@ -261,7 +261,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
               <div className="bg-blue-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-500/20 transition-colors">
                 <Package2 size={32} className="text-blue-400" />
@@ -289,6 +289,26 @@ function App() {
               <h3 className="text-2xl font-semibold mb-4">{t.secureTransport}</h3>
               <p className="text-slate-400 leading-relaxed">
                 {t.secureDescription}
+              </p>
+            </div>
+
+            <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
+              <div className="bg-purple-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-500/20 transition-colors">
+                <Warehouse size={32} className="text-purple-400" />
+              </div>
+              <h3 className="text-2xl font-semibold mb-4">{t.cargoStorage}</h3>
+              <p className="text-slate-400 leading-relaxed">
+                {t.cargoStorageDescription}
+              </p>
+            </div>
+
+            <div className="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-300 hover:-translate-y-2">
+              <div className="bg-yellow-500/10 w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-yellow-500/20 transition-colors">
+                <Bus size={32} className="text-yellow-400" />
+              </div>
+              <h3 className="text-2xl font-semibold mb-4">{t.groundTransport}</h3>
+              <p className="text-slate-400 leading-relaxed">
+                {t.groundTransportDescription}
               </p>
             </div>
           </div>

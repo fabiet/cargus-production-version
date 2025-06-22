@@ -26,6 +26,10 @@ export const translations = {
     expressDescription: "Fast, reliable delivery with real-time tracking and updates. Get your cargo where it needs to be, when it needs to be there.",
     secureTransport: "Secure Transport",
     secureDescription: "Full insurance coverage and secure handling of all shipments. Your cargo is protected every step of the journey.",
+    cargoStorage: "Cargo Storage",
+    cargoStorageDescription: "Safe, flexible storage solutions for your cargo between shipments. Modern, secure warehouses in key locations.",
+    groundTransport: "Ground Transportation",
+    groundTransportDescription: "Reliable ground transportation for last-mile delivery and intermodal logistics. Fast, safe, and efficient.",
     
     // Stats
     shipmentsDelivered: "Shipments Delivered",
@@ -172,6 +176,10 @@ export const translations = {
     expressDescription: "Entrega rápida y confiable con seguimiento en tiempo real y actualizaciones. Lleve su carga donde necesita estar, cuando necesita estar allí.",
     secureTransport: "Transporte Seguro",
     secureDescription: "Cobertura de seguro completa y manejo seguro de todos los envíos. Su carga está protegida en cada paso del viaje.",
+    cargoStorage: "Almacenaje de Carga",
+    cargoStorageDescription: "Soluciones de almacenamiento seguras y flexibles para su carga entre envíos. Almacenes modernos y seguros en ubicaciones clave.",
+    groundTransport: "Transporte Terrestre",
+    groundTransportDescription: "Transporte terrestre confiable para entregas de última milla y logística intermodal. Rápido, seguro y eficiente.",
     
     // Stats
     shipmentsDelivered: "Envíos Entregados",
