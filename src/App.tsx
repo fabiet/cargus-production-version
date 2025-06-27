@@ -8,6 +8,7 @@ import { translations } from './translations';
 import logo2 from './assets/logo2.svg';
 import logo from './assets/logo.svg';
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -485,6 +486,7 @@ function App() {
         </div>
       </footer>
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
