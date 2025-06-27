@@ -7,6 +7,7 @@ import { useLanguage } from './contexts/LanguageContext';
 import { translations } from './translations';
 import logo2 from './assets/logo2.svg';
 import logo from './assets/logo.svg';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -483,6 +484,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
